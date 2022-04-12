@@ -1,0 +1,91 @@
+body{
+    color: white;
+    background-color: #1F2937;
+    min-width: 650px;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+}
+
+
+.wrapper-el {
+    display: flex;
+    justify-content: center;
+}
+
+.space-el {
+    justify-content: space-between;
+}
+
+.lightBlue-el {
+    background-color: #3A69D2;
+}
+
+button {
+    background-color: #D1D4F4;
+    color:#4A4E74;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    border: none;
+    border-radius: 6px;
+    margin-right: 50px;
+    padding: 10px 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+#lightBlue-btn {
+    background-color: #3A69D2;
+    color: white;
+}
+
+ul {
+    padding-left: 0;
+    margin-top: 0;
+}
+
+li {
+    list-style-type: none;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+h1 {
+    margin-bottom: 7px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+h3 {
+    opacity: .6;
+}
+
+
+p {
+    margin-top: 0;
+    margin-bottom: 50px;
+    opacity: .65;
+    line-height: 20px;
+}
+
+#remove-btn {
+    font-size: 11px;
+    opacity: .5;
+    line-height: 32px;
+    margin-top: 10px;
+    position: absolute;
+    left: 113px;
+    top: 322px;
+}
+
+#totalAmount-el {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+#lightBlue-btn {
+    width: 100%;
+}
